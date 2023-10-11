@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    box-sizing: content-box;
+    max-width: 100%;
+}
+body {
+    background-color: black;
+    max-width: 100%;
+}
+.banniere {
+    background-image: url(../Images/batman.png);
+    height: 150vh;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    margin: 0px 80px;
+    border: 3px solid rgba(245, 245, 245, 0.317);
+    border-top: none;
+}
+header img {
+margin-right: 700px;
+}
+header a {
+    color: white;
+    font-weight: 600;
+    margin: 0 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+/* Style pour la navigation active */
+#active {
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+/* Style pour l'effet hover */
+header a:hover {
+    color: yellow;
+}
+
+section .together {
+    color: white;
+    display: flex;
+    padding-top: 300px;
+    margin: 0px 80px;
+    border: 3px solid rgba(245, 245, 245, 0.317);
+    border-bottom: none;
+    border-top: none;
+    height: 1000px;
+    padding-bottom: -500px;
+}
+section .all {
+    text-align: center;
+    width: 100%;
+}
+section .p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    height: 40%;
+    padding-top: 10%;
+}
+section h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    margin-top: 3%;
+}
+.button-section {
+    text-align: center;
+    overflow: hidden;
+    transition: transform 1s ease-in-out;
+    transform: translateX(-300%);
+}
+
+.button-section button {
+    background: rgba(245, 245, 245, 0.317);
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 70px;
+    width: 300px;
+    margin: 20px;
+    cursor: pointer;
+}
+.button-section.show-buttons button {
+    transform: translateX(0);
+}
+section button:hover {
+    background: transparent;
+}
+section .flèche_down {
+    margin-top: 30px;
+    cursor: pointer;
+}
+section .logo {
+    display: grid;
+    justify-items: center;
+    top: 35vh;
+    padding-left: 1360px;
+    width: 10vw;
+    margin-left: 1305px;
+    gap: 30px;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+section .logo img {
+    display: block;
+    cursor: pointer;
+}
+
+.ensemble {
+    margin: 0px 80px;
+    border: 3px solid rgba(245, 245, 245, 0.317);
+    border-bottom: none;
+    border-top: none;
+    color: white;
+    padding-left: 80px;
+    margin-top: -200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+
+.ensemble_h1 {
+    transition: transform 1s ease-in-out;
+    transform: translateX(-300%);
+}
+.ensemble_tout {
+    padding-top: 20px;
+    transition: transform 1s ease-in-out;
+    transform: translateX(-300%);
+}
+.img {
+    padding-top: 40px;
+    display: flex;
+    column-gap: 30px;
+    transition: transform 1s ease-in-out;
+    transform: translateX(-300%);
+}
+.img1 {
+    display: flex;
+    align-items: center;
+    column-gap: 80px;
+}
+.bathome13 {
+    padding-left: 200px;
+    padding-top: 30px;
+}
+.bathome13 {
+    width: 15%;
+    height: 15%;
+    transform: translateX(200%);
+}
+.h1_text_h1 {
+     margin-top: -7%;
+     transform: translateX(400%);
+     transition: transform 1s ease-in-out;
+     transform: translateX(-300%);
+}
+.h1_text_text {
+   margin-top: 20px;
+   transition: transform 1s ease-in-out;
+   transform: translateX(-300%);
+}
+.picture1, .picture2 {
+    padding-top: 80px;
+    margin-left: -7%;
+    display: flex;
+    justify-content: space-evenly;
+    transition: transform 1s ease-in-out;
+    transform: translateX(-300%);
+}
+.bathome12 {
+    margin-top: -11%;
+    margin-left: 71%;
+    font-size: 10px;
+    font: 100;
+}
+.presentation {
+    margin-left: -7%;
+    padding-left: 100px;
+}
+.presentation_title {
+    transition: transform 1s ease-in-out;
+    transform: translateX(-300%);
+}
+.presentation_text {
+    transition: transform 1s ease-in-out;
+    transform: translateX(-300%);
+    margin-top: 20px;
+}
+.introduction {
+    margin: 100px auto;
+}
+.introduction_title {
+    transition: transform 1s ease-in-out;
+    transform: translateX(-300%);
+}
+.introduction_text {
+    margin-top: 20px;
+    transition: transform 1s ease-in-out;
+    transform: translateX(-300%);   
+}
+.while {
+    margin-top: 20px;
+    border: none;
+    height: 900px;
+    width: 100%;
+}
+.h3 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    transition: transform 1s ease-in-out;
+    transform: translateX(-300%);
+}
+.img_p {
+    display: flex;
+    padding-top: 100px;
+    margin-left: -3%;
+    height: 300px;
+}
+.fleche {
+    margin: 50px;
+}
+
+.whole {
+    color: white;
+    background: linear-gradient(to bottom, rgb(53, 54, 54), rgb(12, 36, 48));
+    border:3px solid rgba(245, 245, 245, 0.084) ;
+    border-radius: 0 30px 30px 0;
+    padding: 20px;
+    width: 100%;
+    height: 300px;
+}
+.icon {
+    margin: 50px;
+}
+form {
+    background: linear-gradient(to right, rgb(53, 54, 54), rgb(12, 36, 48));
+    height: 700px;
+    padding: 30px;
+    color: white;
+    margin-left: -5.5%;
+    margin-bottom: 60px;
+}
+
+h5 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 30px;
+}
+
+form label {
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+input[type="email"] {
+    width: 88%;
+    height: 20px;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+    color: white;
+}
+.form_h5 {
+    transition: transform 1s ease-in-out;
+    transform: translateX(-300%);
+}
+form h6 {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 40px auto 0px auto;
+}
+select {
+    color: white;
+    background: transparent;
+}
+
+.checkbox {
+    display: flex;
+    align-items: flex-end;
+    column-gap: 10px;
+}
+
+input[type="checkbox"] {
+    width: 2%;
+    height: 20px;
+}
+
+.choose {
+    display: flex;
+    align-items: flex-end;
+    column-gap: 100px;
+    border-bottom: 2px solid rgba(245, 245, 245, 0.372);
+    width: 100%;
+}
+
+input[type="button"] {
+    color: white;
+    background: none;
+    font-size: 1rem;
+    border: 1px solid rgb(1, 87, 121);
+    margin-top: 30px;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+}
+
+textarea, input[type="text"] {
+    width: 88%;
+    height: 20px;
+    color: white;
+    font-size: 1.5rem;
+    background: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0; 
+    padding: 20px;
+}
+
+.form_submit {
+    color: white;
+    margin: 20px auto;
+    background: linear-gradient(to right, rgb(205, 203, 203), rgb(95, 4, 19));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 20%;
+    height: 50px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: block;
+    text-align: center;
+    transition: transform 1s ease-in-out;
+    transform: translateX(-300%);
+}
+
+input[type="submit"]:hover {
+    font-size: 1.6rem;
+}
+
+.citation {
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.mot {
+    text-align: center;
+}
+.end {
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 20px;
+}
+.word {
+    margin-left: 30px;
+}
+.fin {
+    margin: 100px auto;
+}
+.point {
+    display: flex;
+    width: 15%;
+    margin: 30px auto;
+}
+.p1{
+    height: 3px;
+    width: 3px;
+    margin: 5px;
+    border: 3px solid rgb(0, 81, 255);
+    border-radius: 3px;
+}
+.guillemet1 {
+    margin-left: 10%;
+    bottom: 200px;
+}
+.guillemet2 {
+    margin-left: 80%;
+    margin-bottom: 200px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 851vh;
+    width: 100%;
+}
+footer p {
+    color: white;
+}
+
+.image_p,
+.log {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centrez horizontalement les éléments dans le footer */
+}
+
+.log {
+    column-gap: 30px;
+}
+
+.show_element_normally {
+    transform: translateX(0);
+}
